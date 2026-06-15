@@ -1,0 +1,3 @@
+aws_region  = "sa-east-1"
+bucket_name = "cami-greff-devops-fase1-api"
+environment = "dev"

@@ -1,0 +1,15 @@
+node_modules/
+dist/
+coverage/
+.npm-cache/
+.docker-tmp/
+.env
+.DS_Store
+*.log
+
+# Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.tfvars
+!*.tfvars.example

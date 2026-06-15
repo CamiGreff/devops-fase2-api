@@ -1,0 +1,22 @@
+{
+  "name": "devops-fase2-api",
+  "version": "1.0.0",
+  "description": "API de exemplo para pipeline CI/CD, Docker e entrega continua na fase 2 de DevOps",
+  "author": "Camila Silva Greff",
+  "main": "dist/src/server.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "prestart": "npm run build",
+    "start": "node dist/src/server.js",
+    "test": "node --test --experimental-strip-types tests/**/*.test.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "typescript": "^5.8.3"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT"
+}
